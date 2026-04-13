@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .profile {
+            max-width: 600px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        h1 {
+            margin-bottom: 5px;
+        }
+
+        .section {
+            text-align: left;
+            margin-top: 20px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<div class="profile">
+
+    <!-- Name -->
+    <h1>Your Name</h1>
+
+    <!-- Photo -->
+    <img src="https://via.placeholder.com/150" alt="Student Photo">
+
+    <!-- Course Details -->
+    <div class="section">
+        <h2>Course Details</h2>
+        <p><strong>Course:</strong> BSc Computer Science</p>
+        <p><strong>College:</strong> Your College Name</p>
+        <p><strong>Year:</strong> 2nd Year</p>
+    </div>
+
+    <!-- Skills (List) -->
+    <div class="section">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML & CSS</li>
+            <li>C Programming</li>
+            <li>Java Basics</li>
+            <li>UI/UX Design</li>
+        </ul>
+    </div>
+
+    <!-- Contact Details (Links) -->
+    <div class="section">
+        <h2>Contact</h2>
+        <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+        <p>Phone: <a href="tel:+911234567890">+91 1234567890</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com" target="_blank">View Profile</a></p>
+    </div>
+
+</div>
+
+</body>
+</html>
